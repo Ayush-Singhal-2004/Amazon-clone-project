@@ -9,6 +9,7 @@
     color: white;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 .navlogo{
     height: 7vh;
@@ -21,11 +22,11 @@
     width:100%;
 }
 .border{
-    border: 2px solid transparent;
+    border: 1px solid transparent;
 }
 .border:hover
 {
-    border: 1.5px solid white;
+    border: 1px solid white;
 }
 
 #deli{
@@ -48,22 +49,83 @@
 
 .nav-search{
     display: flex;
-    /* justify-content: space-evenly; */
-    background-color: pink;
+    justify-content: space-evenly; 
+    background-color: orange;
     min-width: 40vw;
     /* width:50vw; */
     height:5vh;
     border-radius: 4px;
 
 }
+.nav-search:hover{
+    border: 2px solid orange;
+}
 #navsel{
   
     border-top-left-radius: 4px;
+    text-align: center;
     border-bottom-left-radius:4px ;
     background-color: #f3f3f3;
     width:4vw;
-    text-align: center;
+    border: none;
+
 }
-#navin{
-    width: 34vw;
+
+.nav-search input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
 }
+
+.sicon{
+    width:3.50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+
+#acc{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* box5 */
+
+.navcart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* nav2
+ */
+ .nav-2{
+    height:7vh;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+ }
+
+ .navops a{
+    display: inline;
+    margin-left: 15px;
+}
+
+ .navops{
+    width:70%;
+    font-size: 0.85rem;
+    font-weight: 700;
+
+ }
+ .navdeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+ }
