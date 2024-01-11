@@ -1,0 +1,157 @@
+*{
+    margin:  0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 9vh;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 0 1vw;
+    gap: 3.5vw;
+}
+.navlogo{
+    height: 7vh;
+    width: 7vw;
+}
+.logo{
+    background-image: url(amazon_logo.png);
+    height: 100%;
+    background-size: cover;
+    width:100%;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover
+{
+    border: 1px solid white;
+}
+#deli{
+    color: #cccc;
+    font-size: 0.80rem;
+}
+.navaddress{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.india
+{
+    font-size: 1rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+/** box3 **/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #FEBD69;
+    min-width: 40vw;
+    /* width:50vw; */
+    height:6vh;
+    border-radius: 4px;
+}
+.nav-search .sicon:hover{
+    background-color: #F3A847;
+    border-radius: inherit;
+}
+.nav-search select{
+    color: rgba(102, 102, 102, 0.911);
+}
+/* .nav-search:hover{
+    border: 1px solid orange;
+} */
+.languages{
+    height: 100%;
+    width: 5vw;
+    position: relative;
+}
+.languages-items{
+    display: flex;
+    position: absolute;
+    bottom: 25%;
+}
+.languages img{
+    height: 30%;
+    width: 38%;
+}
+.languages p{
+    font-weight: bold;
+    font-size: 2vh;
+}
+#navsel{
+    border-top-left-radius: 4px;
+    text-align: center;
+    border-bottom-left-radius:4px ;
+    background-color: #D4D4D4;
+    width:4vw;
+    border: none;
+}
+.nav-search input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.sicon{
+    width:3.50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #0f1111;
+}
+/* box4 */
+span{
+    font-size: 0.7rem;
+}
+#acc{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* box5 *
+.navcart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* nav2
+ */
+ .nav-2{
+    height:7vh;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+}
+.navops a{
+    display: inline;
+}
+.navops{
+    /* background-color: pink; */
+    width:60%;
+    height: 90%;
+    font-size: 0.85rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navops a{
+    /* background-color: #F3A847; */
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+}
+.navdeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
