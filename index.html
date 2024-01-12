@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
     <title>Amazon Clone</title>
 </head>
 <body>
@@ -12,12 +11,12 @@
     <div class="main">
         <div class="navbar ">
             <!-- navbar code -->
-            <div class="navlogo border">
+            <div class="navlogo border-class">
                 <div class="logo">
                 </div>
             </div>
         
-            <div class="navaddress border">
+            <div class="navaddress border-class">
                 <p id="deli"> Deliever to</p>
                 <div class="icon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt"
@@ -33,28 +32,28 @@
                 <select id="navsel">
                     <option value="">All</option>
                 </select>
-                <input id="navin "type="text" placeholder="Search Amazon">
+                <input id="navin" type="text" placeholder="Search Amazon">
                 <div class="sicon">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
                       </svg>
                 </div>
             </div>
-            <div class="languages">
+            <div class="languages border-class">
                 <div class="languages-items">
-                    <img src="Flag_of_India.svg.webp" alt="loading..">
+                    <img src="./images/Flag_of_India.svg.webp" alt="loading..">
                 <p>EN</p>
                 </div>
             </div>
-            <div class="navsign border" id="nav-signin">
-                <p><span>Hello,Signin</span></p>
+            <div class="navsign border-class" id="nav-signin">
+                <p>Hello,Signin</p>
                 <p id="acc">Account & Lists</p>
             </div>
-            <div class="return border">
+            <div class="return border-class">
                 <p><span>Returns</span></p>
                 <p id="acc">&Orders</p>
             </div>
-            <div class="navcart border">
+            <div class="navcart border-class">
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
                     <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
                   </svg>
@@ -80,12 +79,11 @@
                 <a href="#">Gift Ideas</a>
                 <a href="#">Electronics</a>
                 <a href="#">Prime</a>
-                <a href="#">Customer Service</a>
+                <a href="#" id="navops-cutomer-id">Customer Service</a>
             </div>
             <div class="navdeals">
                 <img src="https://m.media-amazon.com/images/G/31/img17/Home/AmazonTV/Crimes_aajkal/SWM_400x39_V1._CB585205801_.jpg">
             </div>
-
         </div>
         <div class="sign-in-pop-up" id="signIn-popUp-id">
             <div class="nav-signin-popup-head">
@@ -118,8 +116,201 @@
             </div>
         </div>
         <div class="content">
-            
-        </div>
+            <img src="./images/PC_Hero_1500x600_deals_ho._CB585932732_.jpg" alt="">
+            <div class="content-items">
+                <div class="content-card">
+                    <div class="content-item-head">
+                       <h2>Starting ₹199 | Amazon brands & more</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_2_Week_02._SY116_CB585745342_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_2._SY116_CB573066784_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_Kitchen_Wk47_3._SY116_CB573066784_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/1x_Desktop_Quad_card_w_title_-_Card_4._SY116_CB572041232_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Up to 75% off | Headphones</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boat_Desktop_Qc_1x._SY116_CB577919562_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Boult_Desktop_Qc_1x._SY116_CB577919562_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Noise_Desktop_Qc_1x._SY116_CB577919562_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img21/MSO/CE/Unrec1/Zebronics_Desktop_Qc_1x._SY116_CB577919562_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Up to 60% off | Styles for men</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-1-186-116._SY116_CB636110853_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-2-186-116._SY116_CB636110853_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-3-186-116._SY116_CB636110853_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PF_MF/MF-4-186-116._SY116_CB636110853_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Appliances for your home | Up to 55% off</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_4._SY116_CB600489960_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_3._SY116_CB600489960_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_7._SY116_CB600489960_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/HI/SYED/ATF/QC-adapts_186x116_5._SY116_CB600489960_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Starting ₹99 | All your home improvement needs</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG15/Irfan/GATEWAY/MSO/186x116---wm._SY116_CB667322346_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Baby essentials & toys | Amazon Brands & more</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116__WK_50._SY116_CB570497530_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/PC_QC_186x116_5_CPB01._SY116_CB570992602_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Wk-37_001_4._SY116_CB596159194_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Wk-37_001_2._SY116_CB596159194_.jpg alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Automotive essentials | Up to 60% off</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+                <div class="content-card">
+                    <div class="content-item-head">
+                        <h2>Up to 60% off | Styles for women</h2>
+                    </div>
+                    <div class="content-card-item">
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF1-186-116._SY116_CB636048992_.jpg" alt="">
+                            <p>Starting ₹199 | Water bottles</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF2-186-116._SY116_CB636048992_.jpg" alt="">
+                            <p>Starting ₹299 | Storage containers</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF4-186-116._SY116_CB636048992_.jpg" alt="">
+                            <p>Starting ₹499 | Cookware</p>
+                        </div>
+                        <div class="content-card-item1">
+                            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Fashion/Gateway/BAU/BTF-Refresh/May/PC_WF/WF3-186-116._SY116_CB636048992_.jpg" alt="">
+                            <p>Starting ₹399 | Racks & holders</p>
+                        </div>
+                    </div>
+                    <p>See more</p>
+                </div>
+            </div>
         <div class="footer">
             <!-- footer code -->
         </div>
