@@ -255,3 +255,20 @@ span{
     color:#ff9e1f;
     text-decoration: underline;
 }
+/* shop section  */
+.content{
+    background-image: url(PC_Hero_1500x600_deals_ho._CB585932732_.jpg);
+    height: 60vh;
+    width:100%;
+}
+
+.cards{
+    display: flex;
+
+}
+.box{
+ border: 2px solid black;
+    height:10vh;
+    width:23%;
+
+}
