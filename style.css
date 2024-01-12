@@ -73,11 +73,17 @@
     height: 100%;
     width: 5vw;
     position: relative;
+    padding: 1px;
+    border: 1px solid transparent;
+}
+.languages:hover{
+    border: 1px solid white;
 }
 .languages-items{
     display: flex;
     position: absolute;
     bottom: 25%;
+    gap: 0.5vw;
 }
 .languages img{
     height: 30%;
@@ -130,7 +136,7 @@ span{
     color: white;
     align-items: center;
     justify-content: center;
-    gap: 1vw;
+    gap: 2vw;
 }
 .navops a{
     display: inline;
@@ -150,8 +156,21 @@ span{
     text-decoration: none;
     color: white;
     font-weight: lighter;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 4px;
+    border: 1px solid transparent;
+}
+.navops a:hover{
+    border: 1px solid white;
 }
 .navdeals{
     font-size: 0.9rem;
     font-weight: 700;
+    border: 1px solid transparent;
+}
+.navdeals:hover{
+    cursor: pointer;
+    border: 1px solid white;
 }
