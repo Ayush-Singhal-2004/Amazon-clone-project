@@ -264,6 +264,7 @@ span{
 
 .cards{
     display: flex;
+    width: 50vw;
 
 }
 .box{
