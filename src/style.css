@@ -5,7 +5,8 @@
     border: border-box;
 }
 .navbar{
-    height: 9vh;
+    height: 10vh;
+    width: 98vw;
     background-color: #0f1111;
     color: white;
     display: flex;
@@ -13,6 +14,8 @@
     cursor: pointer;
     padding: 0 1vw;
     gap: 3.5vw;
+    position: fixed;
+    z-index: 200;
 }
 .navlogo{
     height: 7vh;
@@ -132,14 +135,19 @@ span{
 }
 /* nav2
  */
- .nav-2{
+.nav-2{
     height:7vh;
+    width: 99vw;
     background-color: #222f3d;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
     gap: 2vw;
+    position: absolute;
+    top: 10%;
+    z-index: 100;
+    left: 0;
 }
 .navops a{
     display: inline;
@@ -264,8 +272,9 @@ span{
 .content{
     min-height: 360vh;
     width:100%;
-    position: relative;
+    position: absolute;
     background-color: #E3E6E6;
+    top: 17.2%;
 }
 .content img{
     width: 100%;
