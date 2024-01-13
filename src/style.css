@@ -367,3 +367,31 @@ span{
     font-size: small;
     margin-top: 1vh
 }
+
+/* footer
+ */
+footer{
+    position: absolute;
+    color: white;
+    bottom: 0;
+}
+
+.foot1{
+    background-color: #485769;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+}
+.foot2{
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    height:20vh;
+
+}
+
+.foot2 a{
+    color: white;
+    text-decoration: none;
+}
