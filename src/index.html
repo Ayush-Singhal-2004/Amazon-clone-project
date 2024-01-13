@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Amazon Clone</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
             </div>
             <div class="languages border-class">
                 <div class="languages-items">
-                    <img src="./images/Flag_of_India.svg.webp" alt="loading..">
+                    <img src="../images/Flag_of_India.svg.webp" alt="loading..">
                 <p>EN</p>
                 </div>
             </div>
@@ -116,7 +117,38 @@
             </div>
         </div>
         <div class="content">
-            <img src="./images/PC_Hero_1500x600_deals_ho._CB585932732_.jpg" alt="">
+            <div class="content-cover-bg" id="content-cover-bg-id"></div>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="../images/PC_Hero_1500x600_deals_ho._CB585932732_.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Beauty/JanART/new/Deals-on-makeup-PC._CB584267922_.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/WLA/2024/January/JanART/Gateway/Event/R1/D112932136_JanArt_DesktopHero_3000x1200._CB584088466_.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/PC-Acc/Jan-ART/GW/PC-Acc_MAINEVENT_JanArt_DesktopHeroTemplate_3000x1200_23Nov2023._CB584269148_.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img23/Wireless/Xiaomi/JanArt24/MSO/POCO/BANHITAGW/PEAGWBANHITA/GWBANHITA2/FINALBANHITA/D112233224_JanArt_DesktopHero_3000x1200FF._CB584271175_.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Toys/JanART2024GW/JanArt_DesktopHeroTemplate_3000x1200_Soft_toys_Unrec._CB584087980_.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img24/Pets/kmargso/JanART24/GW/PEA_Unrec_3000._CB584261650_.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img19/JanART24HeroFinal/HeroMainBankCREvert2X._CB584270917_.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-button-next" style="top: 30%;"></div>
+                <div class="swiper-button-prev" style="top: 30%;"></div>
+              </div>
+            <!-- <img src="../images/PC_Hero_1500x600_deals_ho._CB585932732_.jpg" alt=""> -->
             <div class="content-items">
                 <div class="content-card">
                     <div class="content-item-head">
@@ -316,6 +348,7 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 
 </body>
