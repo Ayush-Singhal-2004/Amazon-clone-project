@@ -262,7 +262,7 @@ span{
 }
 /* shop section  */
 .content{
-    min-height: 200vh;
+    min-height: 500vh;
     width:100%;
     position: relative;
     background-color: #E3E6E6;
@@ -275,12 +275,12 @@ span{
 .content-items{
     height: 80vh;
     width: 82%;
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5vw;
     position: absolute;
     z-index: 10;
-    top: 20%;
+    top: 8.5%;
     left: 1%;
 }
 .content-card{
@@ -334,37 +334,3 @@ span{
     top: -20%;
 }
 
-/* footer */
-footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-.foot1{
-    
-    background-color:#485769;
-    height: 5vh;
-    width:100%;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.foot2{
-    
-    background-color: #232F3E;
-    color: white;
-    height:40vh;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-    margin-top: 10px;
-}
-ul a{
-    display: grid;
-    margin-top: 10px;
-    font-size: 0.85rem;
-    color: white;
-} */
