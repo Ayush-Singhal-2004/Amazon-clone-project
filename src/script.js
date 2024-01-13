@@ -27,3 +27,7 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+document.getElementById("back-to-top-btn-id").addEventListener("click", () => {
+  document.body.scrollTop = document.documentElement.scrollTop = 0;
+});

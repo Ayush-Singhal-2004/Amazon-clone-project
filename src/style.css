@@ -262,7 +262,7 @@ span{
 }
 /* shop section  */
 .content{
-    min-height: 500vh;
+    min-height: 360vh;
     width:100%;
     position: relative;
     background-color: #E3E6E6;
@@ -278,7 +278,7 @@ span{
     gap: 1.5vw;
     position: absolute;
     z-index: 10;
-    top: 8.5%;
+    top: 11%;
     left: 1%;
 }
 .content-card{
@@ -339,7 +339,7 @@ span{
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 36%;
+    top: 48.5%;
     display: flex;
     align-items: center;
 }
@@ -366,4 +366,68 @@ span{
 .content-swiper-sub-item-card p{
     font-size: small;
     margin-top: 1vh
+}
+
+/* footer
+ */
+footer{
+    position: absolute;
+    color: white;
+    bottom: 0;
+}
+
+.foot1{
+    background-color: #485769;
+    height:8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.foot1:hover{
+    background-color: #526275;
+}
+.foot2{
+    background-color: #232F3E;
+    display: flex;
+    color: white;
+    height:38vh;
+    width: 91vw;
+    justify-content: space-around;
+    padding: 4vw;
+    border-bottom: 0.3px solid rgba(184, 184, 184, 0.637);
+}
+.foot2 a{
+    color: white;
+    text-decoration: none;
+}
+.foot2-1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+.foot2-1 p{
+    font-weight: bold;
+}
+.foot2-1 div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+.foot2-1 div a{
+    color: rgb(230, 230, 230);
+    font-size: 1vw;
+}
+.foot2-1 div a:hover{
+    text-decoration: underline;
+}
+.footer-bottom-1{
+    height: 25vh;
+    width: 100vw;
+    background-color: #232F3E;
+}
+.footer-bottom-2{
+    height: 42vh;
+    width: 100vw;
+    background-color: #131A22;
 }
