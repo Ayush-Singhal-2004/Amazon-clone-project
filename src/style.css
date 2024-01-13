@@ -262,7 +262,7 @@ span{
 }
 /* shop section  */
 .content{
-    min-height: 200vh;
+    min-height: 500vh;
     width:100%;
     position: relative;
     background-color: #E3E6E6;
@@ -273,12 +273,12 @@ span{
 .content-items{
     height: 80vh;
     width: 82%;
-     display: grid;
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 1.5vw;
     position: absolute;
     z-index: 10;
-    top: 20%;
+    top: 8.5%;
     left: 1%;
 }
 .content-card{
@@ -339,14 +339,13 @@ span{
     width: 100%;
     background-color: white;
     position: absolute;
-    top: 90%;
+    top: 36%;
     display: flex;
     align-items: center;
 }
 .content-swiper-card-item{
     height: 45vh;
     width: 100%;
-    /* background-color: pink; */
     display: flex;
     align-items: center;
     gap: 1vw;
