@@ -21,8 +21,8 @@
 .logo{
     background-image: url(/images/amazon_logo.png);
     height: 100%;
-    background-size: cover;
     width:100%;
+    background-size: cover;
 }
 .border-class{
     border: 1px solid transparent;
@@ -219,7 +219,7 @@ span{
 .nav-signin-popup-head p{
     font-size: 1.8vh;
     cursor: pointer;
-    color: rgb(83, 83, 83);
+    color: rgb(46, 46, 46);
 }
 .nav-signin-popup-head span{
     font-size: 1.8vh;
@@ -322,3 +322,49 @@ span{
     padding-left: 1vw;
     cursor: pointer;
 }
+.content-cover-bg{
+    height: 0;
+    width: 100vw;
+    background-color: rgba(39, 39, 39, 0.5);
+    position: absolute;
+    z-index: 15;
+}
+.swiper-btn{
+    position: relative;
+    top: -20%;
+}
+
+/* footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.foot1{
+    
+    background-color:#485769;
+    height: 5vh;
+    width:100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot2{
+    
+    background-color: #232F3E;
+    color: white;
+    height:40vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    margin-top: 10px;
+}
+ul a{
+    display: grid;
+    margin-top: 10px;
+    font-size: 0.85rem;
+    color: white;
+} */
