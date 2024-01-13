@@ -19,7 +19,7 @@
     width: 7vw;
 }
 .logo{
-    background-image: url(./images/amazon_logo.png);
+    background-image: url(/images/amazon_logo.png);
     height: 100%;
     background-size: cover;
     width:100%;
@@ -266,6 +266,7 @@ span{
     background-color: #E3E6E6;
 }
 .content img{
+    
     width: 100%;
 }
 .content-items{
@@ -318,3 +319,15 @@ span{
     padding-left: 1vw;
     cursor: pointer;
 }
+
+/* footer
+ */
+.footer{
+    position:absolute;
+    bottom: 0;
+}
+ .foot1{
+    background-color: #485769;
+    color: white;
+    height: 3vh;
+ }
