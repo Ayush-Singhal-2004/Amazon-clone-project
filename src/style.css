@@ -19,7 +19,7 @@
     width: 7vw;
 }
 .logo{
-    background-image: url(./images/amazon_logo.png);
+    background-image: url(/images/amazon_logo.png);
     height: 100%;
     background-size: cover;
     width:100%;
@@ -271,6 +271,7 @@ span{
     
     width: 100%;
 }
+
 .content-items{
     height: 80vh;
     width: 82%;
