@@ -185,23 +185,22 @@ span{
     cursor: pointer;
     border: 1px solid white;
 }
-
 .sign-in-pop-up{
-    height: 60vh;
+    /* height: 60vh; */
     width: 35vw;
     background-color: white;
     border: 1px solid rgb(99, 99, 99);
     position: absolute;
-    z-index: 80;
+    z-index: 250;
     right: 8%;
     top: 9%;
     border-radius: 3px;
-    opacity: 0;
     padding: 1vh;
     padding-bottom: 2.5vw;
+    display: none;
 }
 .nav-signin-popup-head{
-    height: 20%;
+    height: 12vh;
     width: 100%;
     display: flex;
     flex-direction: column;
