@@ -1,11 +1,11 @@
 const navSignIn = document.getElementById("nav-signin");
 navSignIn.addEventListener("mouseenter", () => {
-    document.getElementById("signIn-popUp-id").style.opacity = 1;
+    document.getElementById("signIn-popUp-id").style.display="inline";
     document.getElementById("content-cover-bg-id").style.height = "100vh";
 });
 const signUpPopUpBox = document.getElementById("signIn-popUp-id");
 signUpPopUpBox.addEventListener("mouseleave", () => {
-    signUpPopUpBox.style.opacity = 0;
+    signUpPopUpBox.style.display="none";
     document.getElementById("content-cover-bg-id").style.height = 0;
 });
 
