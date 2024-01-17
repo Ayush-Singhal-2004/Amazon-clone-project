@@ -185,20 +185,19 @@ span{
     cursor: pointer;
     border: 1px solid white;
 }
-
 .sign-in-pop-up{
     /* height: 60vh; */
     width: 35vw;
     background-color: white;
     border: 1px solid rgb(99, 99, 99);
     position: absolute;
-    z-index: 280;
+    z-index: 250;
     right: 8%;
     top: 9%;
     border-radius: 3px;
-    display: none;
     padding: 1vh;
     padding-bottom: 2.5vw;
+    display: none;
 }
 .nav-signin-popup-head{
     height: 12vh;
@@ -434,9 +433,55 @@ footer{
     height: 25vh;
     width: 100vw;
     background-color: #232F3E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .footer-bottom-2{
     height: 42vh;
     width: 100vw;
     background-color: #131A22;
+    display: flex;
+    justify-content: space-around;
+    padding: 4vw;
+    
+}
+
+.footlogo{
+    
+    height:7vh ;
+    width:7vw;
+
+}
+.footbutton{
+    
+}
+
+.countries a{
+    color:white;
+}
+
+.footbot2{
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+}
+
+.footbot2 p{
+    font-size: 0.80rem;
+}
+
+.footbot2{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vw;
+}
+
+.footbot2 div a{
+    color:#999999;
+    font-size: 0.80rem;
+}
+
+.footbot2 div a:hover{
+    text-decoration: underline;
 }
