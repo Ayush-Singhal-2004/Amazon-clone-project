@@ -269,7 +269,7 @@ span{
 }
 /* shop section  */
 .content{
-    min-height: 360vh;
+    min-height: 400vh;
     width:100%;
     position: absolute;
     background-color: #E3E6E6;
@@ -387,6 +387,7 @@ footer{
 .foot1{
     background-color: #485769;
     height:8vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -400,7 +401,7 @@ footer{
     display: flex;
     color: white;
     height:38vh;
-    width: 91vw;
+    width: 92vw;
     justify-content: space-around;
     padding: 4vw;
     border-bottom: 0.3px solid rgba(184, 184, 184, 0.637);
@@ -434,29 +435,26 @@ footer{
     width: 100vw;
     background-color: #232F3E;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 1vh;
 }
 .footer-bottom-2{
     height: 42vh;
-    width: 100vw;
+    width: 92vw;
     background-color: #131A22;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-around;
     padding: 4vw;
-    
 }
 
 .footlogo{
-    
     height:7vh ;
     width:7vw;
-
 }
-.footbutton{
-    
-}
-
 .countries a{
     color:white;
 }
@@ -484,4 +482,48 @@ footer{
 
 .footbot2 div a:hover{
     text-decoration: underline;
+}
+
+
+
+.foot-bottom-1-head{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+.footer-amazon-logo img{
+    width: 7.2vw;
+}
+.footer-languages-dialog-box button{
+    padding:  1vh 1vw;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: rgb(211, 211, 211);
+    border: 1px solid rgb(187, 187, 187);
+    background-color: #232F3E;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.foot-bottom-1-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.foot-bottom-1-bottom a{
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    font-size: 0.8vw;
+    padding-right: 1.2vh;
+}
+.footer-bottom-2-upper{
+    display: flex;
+}
+.footer-bottom-2-lower div{
+    display: flex;
 }
