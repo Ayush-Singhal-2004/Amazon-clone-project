@@ -505,7 +505,7 @@ footer{
     gap: 10px;
     color: rgb(211, 211, 211);
     border: 1px solid rgb(187, 187, 187);
-    background-color: #232F3E;
+    background-color: transparent;
     cursor: pointer;
     margin-bottom: 15px;
 }
@@ -523,7 +523,27 @@ footer{
 }
 .footer-bottom-2-upper{
     display: flex;
+    gap: 5vw;
+    font-size: small
+}
+.footer-bottom-2-upper p{
+    color: #999999;
+}
+.footer-bottom-2-upper span{
+    font-size: small;
 }
 .footer-bottom-2-lower div{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 0.80rem;
+   
+
+}
+.footer-bottom-2-UpperItem p{
+    font-size: 0.8vw;
+}
+
+.lastinfo {
+    gap: 1vw;
 }
